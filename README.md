@@ -31,7 +31,7 @@ angular.module('myModule', ['ion-chunks-downloader'])
             'https://example.com/chunk2'
             'https://example.com/chunk3'
         ];
-        var fileName = 'mergedFile.jpg'
+        var fileName = 'mergedFile.jpg';
         $chunksDownloaderService
             .download(chunks, fileName)
             .then(function(mergedFileUri) {
