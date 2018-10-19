@@ -1,0 +1,21 @@
+{
+  "name": "ion-chunks-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "release/ion-chunks-downloader.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnucop/ion-datetime-picker.git"
+  },
+  "author": "Marco Marche <trik@gnucoop.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-iife": "^0.1.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-uglify": "^1.4.1"
+  }
+}
